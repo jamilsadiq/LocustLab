@@ -15,9 +15,9 @@
 ## 🛠️ Project Structure
 ``` 
 Locuslab/
-├── Locustfiles/
+├── locustfiles/
 │   └── locustfile.py
-├── Configurations/
+├── configurations/
 │   ├── auth.py
 │   ├── utils.py
 │   └── payloads/
@@ -79,17 +79,15 @@ Authentication is triggered at the start of the test using credentials from your
 ✅ Test result thresholding and failure gates
 
 ## 🤝 Contributing
-Feel free to fork the repository, create pull requests, or open issues if you have suggestions or improvements. You can contribute in areas like:
+We welcome contributors to help expand and improve **LocusLab**!
 
-- Scenario writing
+How to contribute:
+- Fork the repo
+- Create a feature branch
+- Commit your changes
+- Open a Pull Request
 
-- Environment configuration
-
-- CI/CD integration
-
-- Docker orchestration
-
-- Result reporting
+You can also submit issues, feature requests, or ideas.
 
 ## 📄 License
 This project is licensed under the MIT License.
