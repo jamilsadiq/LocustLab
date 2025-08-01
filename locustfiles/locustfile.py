@@ -2,11 +2,11 @@ import sys
 import os
 from locust import HttpUser, task, events, between
 
-# Add the parent directory to the Python path to find the Configurations module
+# Add the parent directory to the Python path to find the configurations module
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from Configurations.auth import Authentication
-from Configurations.utils import load_json_payload
+from configurations.utils import load_json_payload
 
 # Global variable to hold the auth token
 token = None
