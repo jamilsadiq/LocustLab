@@ -60,7 +60,7 @@ class RestfulBookerUser(HttpUser):
                 "Cookie": f"token={token}"
             })
         # We will also store the booking_id for this specific user session
-        self.booking_id = None
+        # self.booking_id = None
 
     @task(1)
     def health_check(self):
@@ -137,4 +137,4 @@ class RestfulBookerUser(HttpUser):
             else:
                 response.failure("Fail to delete booking information")
 
-        self.booking_id = None  # Reset for the next run
+        # self.booking_id = None  # Reset for the next run
