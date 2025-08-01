@@ -15,9 +15,9 @@
 ## 🛠️ Project Structure
 ``` 
 Locuslab/
-├── Locustfiles/
+├── locustfiles/
 │   └── locustfile.py
-├── Configurations/
+├── configurations/
 │   ├── auth.py
 │   ├── utils.py
 │   └── payloads/
