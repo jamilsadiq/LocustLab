@@ -50,7 +50,7 @@ These values are used by the authentication module to fetch a token.
 ```
 locust --config locust.conf
 or
-locust -f Locustfiles/locustfile.py
+locust -f locustfiles/locustfile.py
 ```
 ## 📊 Simulated Workflow
 The booking_lifecycle task simulates a complete REST API cycle for [restful-booker](https://restful-booker.herokuapp.com/apidoc/index.html) APIs:
